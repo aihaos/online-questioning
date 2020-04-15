@@ -343,6 +343,8 @@ body {
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     font-size: 13px;
     line-height: 1.7;
+    min-height: 100%;
+    height: 100%;
     word-wrap: break-word;
     color: #222;
     background-color: #fff
@@ -1069,14 +1071,18 @@ html.no-touchevents .zg-link-gray:hover,html.no-touchevents .zg-link-gray-normal
 }
 
 .zu-main {
-    min-height: 340px;
-    padding: 25px 0 50px;
+    /*min-height: 340px;*/
+    min-height: 100%;
+    height:auto !important;
+    height: 100%;
+    padding:25px 0 50px;
     position: relative;
     z-index: 2
 }
 
 .zu-main.no-sidebar .zu-main-content {
-    float: none
+    float: none;
+    padding-bottom: 30px;
 }
 
 .zu-main.no-sidebar .zu-main-content-inner {
@@ -9718,7 +9724,7 @@ a>.invisible {
     float: left;
     width: 61px;
     height: 100%;
-    background-image: url(../images/res/zhi.jpg);
+    background-image: url(../images/res/wenda.png);
     background-repeat: no-repeat;
     background-position: center;
     text-indent: -9999px;
@@ -9766,9 +9772,9 @@ a>.invisible {
     right: 0;
     width: 40px;
     height: 100%;
-    background: #00BC9B;
-    background: -webkit-linear-gradient(top,#00BC9B,#00BC9B);
-    background: linear-gradient(to bottom,#00BC9B,#00BC9B);
+    background: #E9967A;
+    background: -webkit-linear-gradient(top,#E9967A,#E9967A);
+    background: linear-gradient(to bottom,#E9967A,#E9967A);
     border: 1px solid #3d444c;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
@@ -9831,7 +9837,7 @@ a>.invisible {
     margin-top: 7px;
     border: 1px solid #00B091;
     border-radius: 4px;
-    background: #00BC9B;
+    background: #E9967A;
     /*background: -webkit-linear-gradient(top,#0e7bef,#0d73da);
     background: linear-gradient(to bottom,#0e7bef,#0d73da);*/
     box-shadow: 0 1px 2px rgba(0,0,0,.05),inset 0 1px 1px rgba(255,255,255,.15);
